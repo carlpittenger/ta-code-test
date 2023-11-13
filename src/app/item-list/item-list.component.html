@@ -1,0 +1,9 @@
+<div>
+    <h1>List of Items to Choose</h1>
+
+    <ul>
+        <li *ngFor="let item of itemList">
+            <a [routerLink]="item.link">{{ item.name }}</a>
+        </li>
+    </ul>
+</div>
